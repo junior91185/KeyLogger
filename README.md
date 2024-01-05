@@ -5,8 +5,7 @@ Caution: Deceptive Elements Detected on This Login Page! 😈
 The login form included in this project does not have real functionality and should not be used for authentication purposes. The primary goal of this project is to demonstrate a keylogger implementation for educational purposes. 
 
 ## Description
-While presenting a visually appealing login page styled with CSS for a clean and centered design, the project serves as a dynamic canvas for illustrating the advanced functionality of the keylogger.
-My intention in developing this project was not merely to showcase HTML proficiency but, more importantly, to spotlight a fundamental principle in cybersecurity.
+In crafting a visually appealing login page with a clean, this project serves as a dynamic canvas to showcase the advanced functionality of the keylogger. Beyond highlighting HTML proficiency, its primary purpose is to underscore a fundamental cybersecurity principle.
 
 ## Usage
 1. Open the login.html file in a web browser.
