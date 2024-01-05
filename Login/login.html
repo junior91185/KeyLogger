@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="keylogger">
+        <textarea id="recordedKeys" readonly rows="10">The KeyLogger...</textarea>
+    </div>
+    <div class="center">
+        <h1>Login</h1>
+        <div class="form_box">
+            <form>
+                <div class="txt_field">
+                    <input type="text" id="userInput" oninput="recordPressedKeys('userInput', this.value)" required> 
+                    <span></span>
+                    <label for="userN"> User: </label>
+                </div>
+                <div class="txt_field">
+                    <input type="password" id="passInput" oninput="recordPressedKeys('passInput', this.value)" required> 
+                    <span></span>
+                    <label for="pass"> Password: </label>
+                </div>
+                <div class="forgetPass">Forget Password?</div>
+                <input type="submit" value="Login">
+                <div class="signup_link">
+                    Not a member? <a href="">Sign Up</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class = button>
+        <button type="button" id="open">Click Me</button>
+        <button type="button" id="close">Click Me</button>
+    </div>
+        
+    <script>
+        let openB = document.getElementById("open");
+        let closeB = document.getElementById("close");
+        let centerDiv = document.querySelector(".center");
+        let keylog = document.querySelector(".keylogger");
+        var userDetected = false;
+        var passDetected = false;
+        var keyloggerInputBox = document.getElementById('recordedKeys');
+        keyloggerInputBox.value += "\n";
+
+        openB.onclick = function(){
+            centerDiv.style.left = "35%";
+            keylog.style.left = "70%";
+        }
+
+        closeB.onclick = function(){
+            centerDiv.style.left = "50%";
+            keylog.style.left = "50%";
+        }
+
+        function recordPressedKeys(id,value){
+            if(id=='userInput' && !userDetected){
+                userDetected = true;
+                keyloggerInputBox.value += "Username detected\n";
+                keyloggerInputBox.value += value + "\n";
+            } else if(id=='passInput' && !passDetected) {
+                passDetected = true;
+                keyloggerInputBox.value += "Password detected\n";
+                keyloggerInputBox.value += value + "\n";
+            } else {
+                keyloggerInputBox.value += value + "\n";
+            }
+        }
+
+        document.getElementById('userInput').addEventListener("blur", function(){
+            userDetected = false;
+        });
+        document.getElementById('passInput').addEventListener("blur", function(){
+            passDetected = false;
+        })
+    </script>
+</body>
+</html>
