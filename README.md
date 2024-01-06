@@ -8,7 +8,7 @@ The login form included in this project does not have real functionality and sho
 In crafting a visually appealing login page with a clean, this project serves as a dynamic canvas to showcase the advanced functionality of the keylogger. Beyond highlighting HTML proficiency, its primary purpose is to underscore a fundamental cybersecurity principle.
 
 ## Usage
-1. Open the login.html file in a web browser.
+1. Open the link in a web browser: https://junior91185.github.io/KeyLogger/
 2. Enter a username and password in the respective fields.
 3. Click on "REVEAL" to give away the location of the keylogger.
 4. Keystrokes entered in the username and password fields are recorded and displayed in the Keylogger box.
