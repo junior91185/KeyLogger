@@ -5,7 +5,7 @@ Caution: Deceptive Elements Detected on This Login Page! 😈
 The login form included in this project does not have real functionality and should not be used for authentication purposes. The primary goal of this project is to demonstrate a keylogger implementation for educational purposes. 
 
 ## Description
-In crafting a visually appealing login page with a clean, this project serves as a dynamic canvas to showcase the advanced functionality of the keylogger. Beyond highlighting HTML proficiency, its primary purpose is to underscore a fundamental cybersecurity principle.
+Keylogging involves recording and monitoring keystrokes on a computer or device, typically done to capture sensitive information such as passwords. In crafting a login page, this project serves as a dynamic canvas to illustrate the advanced functionality of the keylogger. Beyond showcasing HTML proficiency, its primary purpose is to underscore this fundamental cybersecurity topic.
 
 ## Usage
 1. Open the link in a web browser: https://junior91185.github.io/KeyLogger/
