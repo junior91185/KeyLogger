@@ -7,7 +7,7 @@ The login form included in this project does not have real functionality and sho
 ## Description
 Keylogging involves recording and monitoring keystrokes on a computer or device, typically done to capture sensitive information such as passwords. In crafting a login page, this project serves as a dynamic canvas to illustrate the advanced functionality of the keylogger. Beyond showcasing HTML proficiency, its primary purpose is to underscore this fundamental cybersecurity topic.
 
-## Usage
+## Instructions
 1. Open the link in a web browser: https://junior91185.github.io/KeyLogger/
 2. Enter a username and password in the respective fields.
 3. Click on "REVEAL" to give away the location of the keylogger.
